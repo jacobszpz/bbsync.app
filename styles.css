@@ -1,0 +1,86 @@
+body {
+    background-color: #212121;
+    color: #F5F5F5;
+    font-family: "Open Sans", Arial, sans-serif;
+    height: 100vh;
+    margin: 0;
+}
+
+p {
+    font-size: 14pt;
+}
+
+h2 {
+    font-size: 34pt;
+}
+
+.footer {
+    text-align: center;
+    height: 10%;
+    margin: 0;
+    padding: 0;
+}
+
+.footer > p {
+    font-size: 12pt;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-shadow: 1px 1px #000000;
+}
+
+.footer-links > a {
+    color: #616161;
+    text-decoration: none;
+}
+
+.footer-links > a:not(:last-child)::after {
+  content: "|";
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.bb-button {
+    background-color: #A02C2C;
+    color: #FFFFFF;
+    border: 0px none #000;
+    box-shadow: 0px 2px 1px #000000;
+    min-height: 2.5em;
+    width: 80%;
+    min-width: 160px;
+    max-width: 500px;
+    font-weight: bold;
+    font-size: 1em;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+    margin-top: 20px;
+}
+
+.bb-button:active {
+    box-shadow: none;
+}
+
+.bb-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85%;
+    margin: 0;
+}
+
+.bb-center-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    max-width: 40vw;
+    min-height: 20vh;
+}
+
+#bb-main-logo {
+    width: 200px;
+    height: auto;
+}
