@@ -17,4 +17,4 @@ This software is distributed under the [General Public License v2.0][license], m
 
 <!-- SHIELDS -->
 
-[license-shield]: https://img.shields.io/github/license/jacobszpz/bbsync.app
+[license-shield]: https://img.shields.io/github/license/sanjacob/bbsync.app
