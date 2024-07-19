@@ -14,18 +14,22 @@ p {
 
 h2 {
     margin-top: 0;
-    font-size: 34pt;
+    font-size: 3rem;
+}
+
+button {
+    font-family: Montserrat;
 }
 
 .footer {
     text-align: center;
-    height: 8%;
-    margin: 20px 0 0;
-    padding: 0;
+    margin: 4rem 0 0;
+    padding: 1rem;
     border-top: 1px solid #E0E0E0;
 }
 
 .footer > p {
+    margin-top: 0;
     font-size: 10pt;
     color: #9E9E9E;
 }
@@ -99,7 +103,13 @@ h2 {
     color: #212121;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1000px) {
+    h2 {
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (max-width: 800px) {
   .bb-center {
     flex-direction: column;
     height: unset;
